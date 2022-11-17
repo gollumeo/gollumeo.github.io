@@ -7,15 +7,19 @@
     height: 500px;
     width: 400px;
     border-collapse: collapse;
-    flex-basis: auto;
     background-color: white;
     align-items: center;
     align-content: center;
-    margin: 0 auto;
     font-family: 'Montserrat Alternates', sans-serif;
     box-shadow: 4px 4px 8px black;
     border: 0px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: auto;
 }
 
 .background img {
