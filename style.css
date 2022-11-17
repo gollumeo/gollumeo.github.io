@@ -57,13 +57,6 @@ h2 {
     margin-top: -8px;
 }
 
-.infos {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-}
-
 .infos li {
     list-style: none;
     text-align: center;
@@ -128,11 +121,10 @@ h2 {
     background: white;
 }
 
-.bottom_part
-{
-    display:grid;
+.bottom_part {
+    display: grid;
     grid-template-areas: "foot foot";
-    grid-template-columns: 65 35%;
+    grid-template-columns: 65 35;
     justify-items: center;
     justify-content: center;
     align-self: center;
@@ -168,32 +160,28 @@ a {
 .becode a:hover {
     background: -webkit-linear-gradient(-3deg, rgb(10, 127, 232), rgb(0, 0, 0));
     background: linear-gradient(-3deg, rgb(10, 127, 232), rgb(0, 0, 0));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-a
-{
+a {
     color: black;
 }
 
-a:visited
-{
+a:visited {
     color: black;
     font-style: italic;
 }
 
-a:hover 
-{
+a:hover {
     font-weight: bold;
 }
 
-a:active 
-{
+a:active {
     font-size: 1.2em;
 }
 
-.bottom_part img:hover
-{
+.bottom_part img:hover {
     transform: scale(1.2);
 }
