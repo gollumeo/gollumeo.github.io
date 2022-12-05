@@ -1,24 +1,62 @@
 body {
-  height: 100vw;
+  min-height: 100vh;
+  max-height: max-content;
   width: 100%;
   margin: 0;
   background: -webkit-radial-gradient(rgb(0, 18, 35), rgb(61, 84, 107));
   background: radial-gradient(rgb(0, 18, 35), rgb(61, 84, 107));
+  font-family: "Montserrat Alternates", sans-serif;
 }
 body header .logo-becode img {
   width: 15%;
-  filter: grayscale(150) blur(0.8px);
+  filter: grayscale(150);
 }
 body header h1 {
   position: absolute;
-  top: 3vh;
+  top: 20vh;
   left: 0;
   right: 0;
   text-align: center;
   margin: 0 auto;
-  background-color: rgba(127, 255, 212, 0.205);
+  background-color: rgb(75, 110, 138);
   width: 30vw;
   padding: 1vw 1vw;
   border-radius: 20px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.349);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.349);
+  font-size: 1.5vw;
+}
+body ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2vw;
+  position: fixed;
+  top: 4vh;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 55%;
+  text-align: center;
+  background-color: rgb(75, 110, 138);
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  border-radius: 20px;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.349);
+}
+body ul li {
+  width: 12vw;
+  padding: 1vh 0;
+  border-radius: 25px;
+  color: rgb(182, 190, 190);
+  font-weight: 600;
+  margin-left: -3vw;
+  margin-right: 2vw;
+  font-size: 0.9vw;
+}
+body ul li a {
+  text-decoration: none;
+  color: rgb(182, 190, 190);
+}
+body ul li a:visited {
+  color: rgb(182, 190, 190);
 }/*# sourceMappingURL=style.css.map */
