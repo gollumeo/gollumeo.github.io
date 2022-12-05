@@ -1,3 +1,24 @@
 body {
-  background-color: black;
+  height: 100vw;
+  width: 100%;
+  margin: 0;
+  background: -webkit-radial-gradient(rgb(0, 18, 35), rgb(61, 84, 107));
+  background: radial-gradient(rgb(0, 18, 35), rgb(61, 84, 107));
+}
+body header .logo-becode img {
+  width: 15%;
+  filter: grayscale(150) blur(0.8px);
+}
+body header h1 {
+  position: absolute;
+  top: 3vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(127, 255, 212, 0.205);
+  width: 30vw;
+  padding: 1vw 1vw;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.349);
 }/*# sourceMappingURL=style.css.map */
