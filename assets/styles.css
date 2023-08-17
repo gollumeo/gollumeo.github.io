@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    text-decoration: none;
+
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+body {
+    background-color: lightblue;
+    color: #313131;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1% 5%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #313131;
+    box-shadow: 4px 8px 12px rgba(49, 49, 49, 0.33);
+    /*margin-bottom: 1%;*/
+}
+
+nav {
+    align-items: center;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+nav>ul>li {
+    transition: transform 0.3s ease-in-out;
+}
+
+nav>ul>li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    /*background-color: rgba(156, 208, 225, 0.66);*/
+    flex: 1 1 0%;
+    border-left: 1px solid rgb(33, 1, 1);
+    border-right: 1px solid rgb(33, 1, 1);
+    box-shadow: 0px 2px 8px;
+    padding-bottom: 1%;
+}
+
+main>h1 {
+    text-align: center;
+    margin: 2% 0;
+    font-weight: 700;
+    font-size: 3.2em;
+    text-shadow: 4px 8px 12px rgba(0, 0, 0, 0.33);
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+main>p {
+    line-height: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
+    color: #000000;
+}
+
+
+main>ul, main>ol {
+    padding-top: 1%;
+    width: 58%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+main>ul>li {
+    margin-left: .5%;
+    margin-top: .2%;
+    list-style: disc inside;
+    line-height: 1.5em;
+}
+
+.php>li {
+    margin-left: .5%;
+    margin-top: .2%;
+    list-style: disc inside;
+    line-height: 1.5em;
+}
+
+main>ol>li {
+    margin-top: .2%;
+    list-style: decimal inside;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #313131;
+    box-shadow: -4px -8px 12px rgba(49, 49, 49, 0.33);
+    padding: 1% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p>.active, .active, li>.active {
+    font-weight: bold;
+    color: #b24c26;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.active {
+    transition: color .3s ease-in-out;
+}
+
+.active:hover, .active:active {
+    color: #7a341a;
+    transition: color .3s ease-in-out;
+}
+
+main>h3 {
+    text-align: center;
+    margin: 2% 0;
+    font-weight: 700;
+    font-size: 2.2em;
+    text-shadow: 4px 8px 12px rgba(0, 0, 0, 0.33);
+}
+
+hr {
+
+    border: 1px solid #b24c26;
+    width: 33%;
+    margin: 2% auto 0% auto
+}
