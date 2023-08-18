@@ -155,3 +155,10 @@ hr {
     width: 33%;
     margin: 2% auto 0% auto
 }
+
+.ex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
