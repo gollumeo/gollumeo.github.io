@@ -162,3 +162,12 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+pre {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    font-family: Monospaced, sans-serif;
+}
